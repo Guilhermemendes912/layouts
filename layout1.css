@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.layout{
+    width: 100%;
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    height: 15%;
+
+    background-color: #ff6247;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    flex: 1;
+
+    background-color: #99fb98;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+
+    height: 15%;
+
+    background-color: #8a2ae3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

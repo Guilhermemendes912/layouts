@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.layout{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.faixa{
+flex: 1;
+
+display:flex;
+align-items: center;
+}
+
+.faixa div{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+
+.faixa1{
+    background-color: #d7bfd7;
+    justify-content: flex-end;
+    gap: 25px;
+    padding-right: 30px;
+}
+
+.faixa1 div{
+    background-color: #8a2ae3;
+}
+
+.faixa2{
+    background-color: #99fb98;
+justify-content: flex-end;
+gap: 25px;
+padding-right: 30px;
+}
+
+.faixa2 div{
+    background-color: #42a942;
+}
+
+.faixa3{
+    background-color:  #f5d0d8;
+    justify-content: center;
+    gap: 25px;
+}
+
+.faixa3 div{
+    background-color:  #e04b5f;
+}
+
+.faixa4{
+    background-color:  #f4dfb4;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.faixa4 div{
+    background-color: #e5b526;
+}
+
+.faixa5{
+    background-color: #b9dff0;
+    justify-content: space-between;
+}
+
+.faixa5 div{
+    background-color: #238bd1;
+}
